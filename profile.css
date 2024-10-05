@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d85ee; 
+    background-image: url("background\ img\ 3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.profile {
+    background-color: #4682b4; 
+    color: #000000; 
+    padding: 20px;
+    border: 2px dotted black;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.progress-container {
+    background-color: #87ceeb; 
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #1e90ff; 
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px; 
+    width: 20px;
+    transition: width 0.5s;
+}
+
+#progress-count {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#step-c{
+    background-color: #2ddba1; 
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.output-box {
+    background-color: #032d2d; 
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black; 
+    height: 2px; 
+    background-color: #000; 
+    margin: 20px 0; 
+    
+    
+    
+}
+.output-b  {
+    margin-top: 20px;
+}
+
